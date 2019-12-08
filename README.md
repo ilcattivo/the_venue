@@ -5,6 +5,6 @@ Simple landing page using React, Material UI, react-scroll, react-slick, react-s
 
 ### Online demo:
 
- [glistening-fish.surge.sh](glistening-fish.surge.sh)
+ [glistening-fish.surge.sh](http://glistening-fish.surge.sh/)
 
 author: [Coding Revolution](https://www.udemy.com/course/the-react-practice-course-learn-by-building-projects/)
