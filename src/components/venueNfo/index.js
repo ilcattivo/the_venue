@@ -1,8 +1,8 @@
-import React from "react";
-import Zoom from "react-reveal/Zoom";
+import React from 'react';
+import Zoom from 'react-reveal/Zoom';
 
-import calendar from "../../resources/images/icons/calendar.png";
-import location from "../../resources/images/icons/location.png";
+import calendar from '../../resources/images/icons/calendar.png';
+import location from '../../resources/images/icons/location.png';
 
 const VenueNfo = () => {
   return (
@@ -16,10 +16,9 @@ const VenueNfo = () => {
                   <div className='vn_icon_square bck_red'></div>
                   <div
                     className='vn_icon'
-                    style={{ backgroundImage: `url(${calendar})` }}
-                  ></div>
+                    style={{ backgroundImage: `url(${calendar})` }}></div>
                   <div className='vn_title'>Event Date & Time</div>
-                  <div className='vn_desc'>5 Feb 2020 @10:00 pm</div>
+                  <div className='vn_desc'>5 Feb 2021 @10:00 pm</div>
                 </div>
               </div>
             </div>
@@ -31,8 +30,7 @@ const VenueNfo = () => {
                   <div className='vn_icon_square bck_yellow'></div>
                   <div
                     className='vn_icon'
-                    style={{ backgroundImage: `url(${location})` }}
-                  ></div>
+                    style={{ backgroundImage: `url(${location})` }}></div>
                   <div className='vn_title'>Event Location</div>
                   <div className='vn_desc'>
                     345 Speer Street Oakland, CA 9835

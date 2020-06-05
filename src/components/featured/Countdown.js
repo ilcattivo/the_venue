@@ -1,16 +1,16 @@
-import React, { Component } from "react";
-import Slide from "react-reveal/Slide";
+import React, { Component } from 'react';
+import Slide from 'react-reveal/Slide';
 
 export default class Countdown extends Component {
   state = {
     days: null,
     hours: null,
     minutes: null,
-    seconds: null
+    seconds: null,
   };
 
   startCountdown() {
-    const deadline = "Feb, 5, 2020";
+    const deadline = 'Feb, 5, 2021';
 
     this.timer = setInterval(() => {
       const time = Date.parse(deadline) - new Date();
@@ -24,7 +24,7 @@ export default class Countdown extends Component {
           seconds,
           minutes,
           hours,
-          days
+          days,
         });
       } else {
         this.setState({ seconds: 0, minutes: 0, hours: 0, days: 0 });
